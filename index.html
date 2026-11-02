@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#FF6B1A">
+<meta name="description" content="About me: programmer and Taekwondo athlete.">
+<title>Zetaloimak</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Unbounded:wght@500;700;900&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+
+<nav class="topbar" id="topbar" aria-label="Main">
+  <a class="brand" href="#home"><span class="led" aria-hidden="true"></span>Zetaloimak</a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#programmer">Programmer</a></li>
+    <li><a href="#taekwondo">Taekwondo</a></li>
+  </ul>
+  <button class="menu-btn" type="button" id="menuBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+</nav>
+
+<main>
+
+<!-- HOME: choose a side -->
+<div class="view" id="view-home">
+  <header class="hero">
+    <div class="blob b1" aria-hidden="true"></div>
+    <div class="blob b2" aria-hidden="true"></div>
+    <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Welcome to my website</p>
+    <h1 class="wordmark">
+      <span class="line">Hi, I’m</span>
+      <span class="line accent">Zeta</span>
+    </h1>
+    <p class="tagline">A programmer who also competes in Taekwondo. Pick a side to explore.</p>
+    <div class="cta">
+      <a class="btn-primary" href="#about">About me <span aria-hidden="true">→</span></a>
+      <a class="btn-ghost" href="#programmer">Programmer</a>
+      <a class="btn-ghost" href="#taekwondo">Taekwondo</a>
+      <a class="btn-ghost" href="https://zetaloimak.github.io/Priditortypeshit/">My website</a>
+    </div>
+  </header>
+
+  <div class="ticker" aria-hidden="true"><div class="ticker-run">
+    <div class="ticker-group"><span>Programmer</span><span>Taekwondo</span><span>Kasidit rakphan</span><span>Zetaloimak</span></div>
+    <div class="ticker-group"><span>Programmer</span><span>Taekwondo</span><span>Kasidit rakphan</span><span>Zetaloimak</span></div>
+  </div></div>
+
+  <section class="block">
+    <div class="head reveal"><span class="kicker">Choose your side</span><h2>What do you want to see?</h2></div>
+    <div class="grid-2">
+      <a class="tile side reveal" href="#programmer">
+        <span class="ico" aria-hidden="true">💻</span>
+        <h3>Programmer</h3>
+        <p>Performance, the languages I’ve learned, and my coding timeline.</p>
+        <span class="go">Enter →</span>
+      </a>
+      <a class="tile side reveal" href="#taekwondo" style="--d:.1s">
+        <span class="ico" aria-hidden="true">🥋</span>
+        <h3>Taekwondo</h3>
+        <p>Performance, my medal timeline, the year I started, and my team.</p>
+        <span class="go">Enter →</span>
+      </a>
+    </div>
+  </section>
+</div>
+
+<!-- PROGRAMMER -->
+<div class="view" id="view-programmer" hidden>
+  <header class="hero compact">
+    <div class="blob b1" aria-hidden="true"></div>
+    <div class="blob b2" aria-hidden="true"></div>
+    <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Programmer</p>
+    <h1 class="wordmark sm"><span class="line">Code</span><span class="line accent">Journey</span></h1>
+    <p class="tagline">Building game program and server since 2021. Here’s what I’ve made and learned.</p>
+  </header>
+
+  <section class="block alt">
+    <div class="head reveal"><span class="kicker">Performance</span><h2>By the numbers</h2></div>
+    <div class="grid-3">
+      <article class="tile stat reveal" style="--d:.1s"><span>Year started</span><b class="accent">2021</b></article>
+      <article class="tile stat reveal" style="--d:.2s"><span>Languages</span><b class="accent">8+</b></article>
+      <article class="tile stat reveal" style="--d:.3s"><span>School awards</span><b class="accent">3</b></article>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="head reveal"><span class="kicker">Projects</span><h2>Things I’ve built</h2></div>
+    <div class="grid-3">
+      <article class="tile reveal"><h3>The game in roblox</h3><p>A game in roblox about 3 project</p><span class="tech">Roblox studio · Lua</span></article>
+      <article class="tile reveal" style="--d:.1s"><h3>The server</h3><p>The server</p><span class="tech">Priditortypeshit · C, Python and SQlite</span></article>
+      <article class="tile reveal" style="--d:.2s"><h3>The program</h3><p>The program for server</p><span class="tech">Priditortypeshit · C, Python</span></article>
+    </div>
+  </section>
+
+  <section class="block alt">
+    <div class="head reveal"><span class="kicker">Languages</span><h2>The year I started each one</h2></div>
+    <div class="grid-4">
+      <article class="tile reveal"><span class="pill">Since 2021</span><h3>Lua</h3><p>The game in Roblox</p></article>
+      <article class="tile reveal" style="--d:.1s"><span class="pill">Since 2026</span><h3>Python</h3><p>The first code</p></article>
+      <article class="tile reveal" style="--d:.2s"><span class="pill">Since 2026</span><h3>C</h3><p>The program that fast to complie</p></article>
+      <article class="tile reveal" style="--d:.3s"><span class="pill">Since 2026</span><h3>More 6+</h3></article>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="head reveal"><span class="kicker">Timeline</span><h2>How I got here</h2></div>
+    <div class="timeline">
+      <div class="tl reveal"><div class="yr">2021</div><h4>First project</h4><p>Make the game in roblox studio</p></div>
+      <div class="tl reveal"><div class="yr">2023</div><h4>The first project with my team</h4><p>The game in roblox studio about 3 game</p></div>
+      <div class="tl reveal"><div class="yr">2026</div><h4>The first program</h4><p>Make the real project in C languages</p></div>
+      <div class="tl reveal"><div class="yr">2026</div><h4>The second program</h4><p>Make the real project in python</p></div>
+      <div class="tl reveal"><div class="yr">2026</div><h4>The PTS</h4><p>The real project with 3 languages</p></div>
+      <div class="tl reveal"><div class="yr">Present</div><h4>The PTS and Game</h4><p>The Server PTS with the project game in the roblox studio with my team</p></div>
+    </div>
+  </section>
+</div>
+
+<!-- TAEKWONDO -->
+<div class="view" id="view-taekwondo" hidden>
+  <header class="hero compact">
+    <div class="blob b1" aria-hidden="true"></div>
+    <div class="blob b2" aria-hidden="true"></div>
+    <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Taekwondo</p>
+    <h1 class="wordmark sm"><span class="line">Taekwondo</span><span class="line accent">journey</span></h1>
+    <p class="tagline">I’ve trained Taekwondo with my team since 2021.</p>
+  </header>
+
+  <section class="block alt">
+    <div class="head reveal"><span class="kicker">Performance</span><h2>My results</h2></div>
+    <div class="grid-4">
+      <article class="tile stat reveal"><span>Year I started</span><b class="accent">2021</b></article>
+      <article class="tile stat reveal" style="--d:.1s"><span>Medals won</span><b class="accent">9</b></article>
+      <article class="tile stat reveal" style="--d:.2s"><span>Gold medals</span><b class="accent">2</b></article>
+      <article class="tile stat reveal" style="--d:.3s"><span>Tournaments</span><b class="accent">8</b></article>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="head reveal"><span class="kicker">Medal timeline</span><h2>Every Tournament</h2></div>
+    <div class="timeline">
+      <div class="tl reveal"><div class="yr">2022</div><span class="medal silver">Silver</span><h4>Chiang Rai Championship 2022</h4></div>
+      <div class="tl reveal"><div class="yr">2023</div><span class="medal gold">Gold</span><h4>Chiang Rai Championship 2023</h4></div>
+      <div class="tl reveal"><div class="yr">2024</div><span class="medal bronze">Bronze</span><h4>Chiang Mai International Taekwondo Championship 2024 </h4></div>
+      <div class="tl reveal"><div class="yr">2024</div><span class="medal silver">Silver</span><h4>Master Nu Taekwondo Championship 2024</h4></div>
+      <div class="tl reveal"><div class="yr">2024</div><span class="medal silver">Silver</span><h4>Chiang Rai Final Championship 2024</h4></div>
+      <div class="tl reveal"><div class="yr">2024</div><span class="medal silver">Silver</span><h4>Lanna Taekwondo Championship 2024</h4></div>
+      <div class="tl reveal"><div class="yr">2025</div><span class="medal silver">Silver</span><h4>Chiang Rai Taekwondo Championship 2025</h4></div>
+      <div class="tl reveal"><div class="yr">2025</div><span class="medal gold">Gold</span><h4>Chiang Rai Taekwondo Championship 2025</h4></div>
+      <div class="tl reveal"><div class="yr">2026</div><span class="medal silver">Silver</span><h4>Chiang Rai Taekwondo Championship 2026</h4></div>
+    </div>
+  </section>
+
+  <section class="block alt">
+    <div class="head reveal"><span class="kicker">My team</span><h2>PNT Chiang Rai</h2></div>
+    <div class="grid-1">
+      <article class="tile reveal"><span class="avatar" aria-hidden="true">CN</span><h3>Chanchai Chanworanit(Coach Pure)</h3><p class="role">Head Coach</p><p>Taught me the basics and the discipline behind every kick.</p></article>
+  </section>
+</div>
+
+<!-- ABOUT ME -->
+<div class="view" id="view-about" hidden>
+  <header class="hero compact">
+    <div class="blob b1" aria-hidden="true"></div>
+    <div class="blob b2" aria-hidden="true"></div>
+    <p class="eyebrow"><span class="dot" aria-hidden="true"></span>About me</p>
+    <h1 class="wordmark sm"><span class="line">Who I</span><span class="line accent">Am.</span></h1>
+    <p class="tagline">A programmer, a Taekwondo athlete and a team player who keeps improving.</p>
+  </header>
+
+  <section class="block">
+    <div class="about-split">
+      <div class="about-text reveal" style="--d:.1s">
+        <span class="kicker">Hello</span>
+        <h2>I’m Kasidit Rakphan or Zeta</h2>
+        <p>I’m a programmer who loves turning ideas into working software. I started coding in 2021 and have been building Game, program and server ever since.</p>
+        <p>Outside the keyboard, I train Taekwondo with Team PNT Chiang Rai. Sparring and competition taught me to stay calm under pressure and to keep getting better after every loss.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block alt">
+    <div class="head reveal"><span class="kicker">Quick facts</span><h2>My info</h2></div>
+    <div class="grid-4">
+      <article class="tile reveal"><span class="fact">Birth</span><span class="fact-value">17/08/2012</span></article>
+      <article class="tile reveal" style="--d:.1s"><span class="fact">Born in</span><span class="fact-value">Chiang Rai, Thailand</span></article>
+      <article class="tile reveal" style="--d:.2s"><span class="fact">Current school</span><span class="fact-value">Chiang Rai Municipality School 6</span></article>
+      <article class="tile reveal" style="--d:.3s"><span class="fact">Dream job</span><span class="fact-value">Developer, Programmer</span></article>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="head reveal"><span class="kicker">What I believe</span><h2>Three things I live by</h2></div>
+    <div class="grid-3">
+      <article class="tile reveal"><h3>Keep learning</h3><p>Every project and every match teaches me something new.</p></article>
+      <article class="tile reveal" style="--d:.1s"><h3>Discipline</h3><p>Small habits done every day beat big efforts done once.</p></article>
+      <article class="tile reveal" style="--d:.2s"><h3>Teamwork</h3><p>Good teams make everyone better, in code and on the mat.</p></article>
+    </div>
+  </section>
+
+  <section class="block alt">
+    <div class="head reveal"><span class="kicker">Explore</span><h2>Two sides of me</h2></div>
+    <div class="grid-2">
+      <a class="tile side reveal" href="#programmer"><span class="ico" aria-hidden="true">💻</span><h3>Programmer</h3><p>Projects, languages and my coding timeline.</p><span class="go">Enter →</span></a>
+      <a class="tile side reveal" href="#taekwondo" style="--d:.1s"><span class="ico" aria-hidden="true">🥋</span><h3>Taekwondo</h3><p>Medals, my team and the road to every belt.</p><span class="go">Enter →</span></a>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="tile contact-card reveal">
+      <h2>Let’s connect</h2>
+      <p>Want to talk about code, Taekwondo or a project together? Send me a message.</p>
+      <div class="cta"><a class="btn-primary" href="https://github.com/Zetaloimak">Contact me<span aria-hidden="true">→</span></a></div>
+    </div>
+  </section>
+</div>
+
+</main>
+
+<footer>
+  <p>© <span data-year>2026</span> <strong>Kasidit Rakphan</strong></p>
+  <a href="#home">Back to home ↑</a>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
